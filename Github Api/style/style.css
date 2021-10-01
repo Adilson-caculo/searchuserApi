@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family:  'Roboto', sans-serif;
+   
+}
+
+:root{
+    --body-bg: #fafafa;
+    --body-color: ;
+    --link-color: rgb(255, 249, 249);
+    --color: #000;
+
+}
+.on:root {
+  --body-bg:#03182F;
+  --body-color: rgb(21, 27, 79);
+  --link-color: #0f3963;
+  --color: #fff;
+  transition: transform 0.3s ease-in;
+}
+
+.darkmode {
+    margin-left: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: .59em;
+
+}
+.darkmode img{
+  margin: .5rem;
+
+}
+.fa-moon{
+    position: absolute;
+    left: -10;
+}
+
+.titles{
+    padding: 1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: var(--body-bg);
+    transition: 0.5s;
+    text-align: center;
+    color: var(--color);
+    
+}
+
+
+
+#myFrom div {
+ padding: .5rem ;
+border-radius: .5rem;
+background-color: var( --body-color);
+margin-bottom: 10px;
+-webkit-box-shadow: 9px 12px 18px -3px rgba(20,19,19,0.25); 
+box-shadow: 9px 12px 18px -3px rgba(20,19,19,0.25);
+}
+
+#search{
+    padding: .2rem;
+    width: 300px;
+    border: none;
+    background: none ;
+}
+
+button{
+    padding: .5rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: rgb(23, 23, 158);
+    color:#fff;
+   
+}
+
+.result{
+    padding: 2rem 7%;
+    border-radius: .8rem;
+     background:var(--body-color) ; 
+     -webkit-box-shadow: 9px 12px 18px -3px rgba(20,19,19,0.25); 
+box-shadow: 9px 12px 18px -3px rgba(20,19,19,0.25);
+}
+.result img{
+    border-radius: 50%;
+}
+.result1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.result2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: .5rem;
+    padding: 1rem;
+    background: var(--body-bg) ;
+    border-radius: .5rem;
+}
+.result2 p{
+    margin: .5rem;
+}
+
+.link{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.link i {
+   padding: .5rem;
+ 
+}
+.fa-twitter{
+margin-left: .5rem;
+}
+.credit{
+    font-size: .8rem;
+   
+    font-weight: lighter;
+    padding:1.5rem;
+}
+.credit span{
+    color: #0f3963;
+}
